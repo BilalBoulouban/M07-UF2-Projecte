@@ -2,15 +2,12 @@
 
 class mainController extends Controller{
 
-    public function home(){
+    public function index(){
         //hola
+        $params['title'] = "home";
+        $this->render ("home/index", $params, "site");
         echo "Estic a Home de main!!!!";
     }
-
-    public function create(){
-        echo "estic a create de main";
-    }
-
 }
 
 ?>

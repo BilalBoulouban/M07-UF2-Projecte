@@ -9,10 +9,12 @@ class userController extends Controller{
     }
 
     public function store(){
+        $name = $_POST['name'];
         $username = $_POST['username'];
         $pass = $_POST['pass'];
 
         $user = array(
+            "naem" => $name,
             "username" => $username,
             "password" => $pass
         );
@@ -22,6 +24,9 @@ class userController extends Controller{
         $userModel = new User();
 
         $userModel->create($user);
+        $params = null;
+
+    
 
 $this -> list();
 

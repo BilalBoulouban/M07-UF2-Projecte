@@ -14,7 +14,7 @@ class Router{
         $this->controller = !empty($url_array[1]) ? $url_array[1] : 'user';
         $this->controller = $this->controller . "Controller";
         require_once("App/Controllers/" . $this->controller . ".php");
-        $this->method = !empty($url_array[2]) ? $url_array[2] : 'home';
+        $this->method = !empty($url_array[2]) ? $url_array[2] : 'index';
         
         
         
