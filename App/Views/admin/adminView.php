@@ -1,0 +1,2 @@
+//vista de lo que veure el administrador, primer fare que es pogui canviar la contrsenya la seva vista y que se puedan mostrar todos los usuarios y poder listarlos,
+//tambien la vista para que se puedan eliminar y editar

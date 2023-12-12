@@ -1,7 +1,7 @@
 
     <div class="signin col-11 col-md-9 col-lg-7 col-xl-5 mx-auto border p-4"
     <form action="/user/store" method="post">
-      <h2 class="text-succes">SignIN</h2>
+      <h2 class="text-succes">Signin</h2>
         <div class="mb-3">
           <label for="name" class="form-label">Nom</label>
           <input type="text"
@@ -21,6 +21,7 @@
           <small id="helpId" class="form-text text-muted">Help text</small>
         </div>
         <button type="submit" class="btn btn-primary">Desa</button>
+       
       
     </form>
     </div>
