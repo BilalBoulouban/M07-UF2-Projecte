@@ -69,9 +69,13 @@ $this -> list();
         }
         //function para ir a user para recorrer ya que tengo hai la informacion
     
-        
+     
+    }
+       //funcio per canviar la contrasenya
+       public function changePass(){
+        $params['title'] = "Canviar contrasenya";
+        $this->render("user/changePass", $params, "site");
 
-        }
     }
 
     // $result = $userModel[
