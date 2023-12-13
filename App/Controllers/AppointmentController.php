@@ -1,1 +1,0 @@
-//visualitzacio, reserva, edicio, eliminacio de cites

@@ -1,0 +1,1 @@
+//vista de com es veure el update del 
